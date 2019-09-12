@@ -7,7 +7,7 @@
 DEVICE_PATH := device/teracube/v7101o
 
 # APEX
-TARGET_FLATTEN_APEX := true
+DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 # Architecture
 TARGET_ARCH := arm64
