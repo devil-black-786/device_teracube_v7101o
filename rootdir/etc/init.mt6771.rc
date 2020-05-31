@@ -40,6 +40,15 @@ on init
 
     mkdir /mnt/cd-rom 0000 system system
 
+    # add a cpuset for the camera daemon
+    # we want all the cores for camera
+    mkdir /dev/cpuset/camera-daemon
+    write /dev/cpuset/camera-daemon/cpus 0-3
+    write /dev/cpuset/camera-daemon/mems 0
+    chown system system /dev/cpuset/camera-daemon
+    chown system system /dev/cpuset/camera-daemon/tasks
+    chmod 0664 /dev/cpuset/camera-daemon/tasks
+
 # change lk_env permission
     chown root system /proc/lk_env
     chmod 0660 /proc/lk_env
