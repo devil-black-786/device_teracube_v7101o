@@ -49,7 +49,19 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
+    android.hardware.graphics.allocator@2.0-impl \
+    android.hardware.graphics.allocator@2.0-service \
+    android.hardware.graphics.composer@2.1-impl \
+    android.hardware.graphics.composer@2.1-service \
+    android.hardware.memtrack@1.0-impl \
+    android.hardware.memtrack@1.0-service \
     libvulkan
+
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0-impl \
+    android.hardware.drm@1.0-service \
+    android.hardware.drm@1.2-service.clearkey
 
 # fastbootd
 PRODUCT_PACKAGES += \
@@ -59,6 +71,11 @@ PRODUCT_PACKAGES += \
 # Features
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.controls.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.controls.xml
+
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.0-impl \
+    android.hardware.health@2.0-service
 
 # HIDL
 PRODUCT_PACKAGES += \
@@ -178,6 +195,10 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
+# RenderScript
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
@@ -192,9 +213,19 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@1.0-impl \
+    android.hardware.thermal@1.0-service
+
 # TinyXML
 PRODUCT_PACKAGES += \
     libtinyxml
+
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.0-impl \
+    android.hardware.vibrator@1.0-service
 
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 29
