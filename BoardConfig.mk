@@ -122,9 +122,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 VENDOR_SECURITY_PATCH := 2020-03-05
 
 # Sepolicy
-SELINUX_IGNORE_NEVERALLOWS := true
-
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR := $(DEVICE_PATH)/sepolicy/private
+include device/mediatek/sepolicy/sepolicy.mk
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

@@ -28,5 +28,11 @@
    "target_path" : "hardware/mediatek",
    "remote"      : "github",
    "branch"      : "eleven"
+ },
+ {
+   "repository"  : "TheMalachite/device_mediatek_sepolicy",
+   "target_path" : "device/mediatek/sepolicy",
+   "remote"      : "github",
+   "branch"      : "eleven"
  }
 ]
