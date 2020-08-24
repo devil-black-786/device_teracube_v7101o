@@ -116,7 +116,6 @@ PRODUCT_PACKAGES += \
     meta_init.project.rc \
     meta_init.rc \
     multi_init.rc \
-    fstab.enableswap \
     fstab.mt6771 \
     ueventd.mtk.rc
 
