@@ -1,7 +1,21 @@
-# Teracube-device_minimum
+TWRP tree for the Teracube One (bismuth)
+=================================================
 
-Device tree for OMNI Android 9.0 TWRP build
+The Teracube One (codenamed _"bismuth"_) is a mid-range smartphone from Teracube.
+He was released in February 2020.
 
-Forked from [mrmazakblu's tree](https://github.com/mrmazakblu/Teracube_minimum_twrp-device-tree)
+| Basic                   | Spec Sheet                                                                                                                     |
+| -----------------------:|:------------------------------------------------------------------------------------------------------------------------------ |
+| CPU                     | Octa-core                                                                                                                      |
+| Chipset                 | Mediatek Helio P60                                                                                                             |
+| GPU                     | Mali-G72 MP3                                                                                                                   |
+| Memory                  | 6GB RAM                                                                                                                        |
+| Shipped Android Version | 9.0                                                                                                                            |
+| Storage                 | 128GB                                                                                                                          |
+| Battery                 | Non-removable Li-Po 3400mAh battery                                                                                            |
+| Display                 | 1080 x 2280 pixels, 19:9 ratio                                                                                                 |
+| Camera (Back)           | 12+5MP dual rear cameras                                                                                                       |
+| Camera (Front)          | 8MP                                                                                                                            |
 
-Built using [TWRP-device-tree-generator](https://github.com/SebaUbuntu/TWRP-device-tree-generator) with physical Teracube One for adb access during generation script
+## Device picture
+![bismuth](https://cdn.shopify.com/s/files/1/0253/7386/8081/products/PRODUCT-1_450x.png?v=1579695634)

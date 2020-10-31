@@ -16,5 +16,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_bismuth-userdebug
 add_lunch_combo omni_bismuth-eng
