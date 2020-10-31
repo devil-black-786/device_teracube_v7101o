@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/teracube/Teracube_One
+DEVICE_PATH := device/teracube/bismuth
 
 # For building with minimal manifest
 #ALLOW_MISSING_DEPENDENCIES := true

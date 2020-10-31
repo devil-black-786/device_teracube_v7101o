@@ -18,6 +18,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),Teracube_One)
+ifeq ($(TARGET_DEVICE),bismuth)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

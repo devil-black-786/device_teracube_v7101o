@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_Teracube_One-userdebug
-add_lunch_combo omni_Teracube_One-eng
+add_lunch_combo omni_bismuth-userdebug
+add_lunch_combo omni_bismuth-eng

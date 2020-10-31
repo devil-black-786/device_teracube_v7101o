@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_Teracube_One.mk
+	$(LOCAL_DIR)/omni_bismuth.mk

@@ -33,11 +33,11 @@ $(call inherit-product, build/target/product/embedded.mk)
 #$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := Teracube_One
-PRODUCT_NAME := omni_Teracube_One
-PRODUCT_BRAND := teracube
+PRODUCT_DEVICE := bismuth
+PRODUCT_NAME := omni_bismuth
+PRODUCT_BRAND := Teracube
 PRODUCT_MODEL := Teracube One
-PRODUCT_MANUFACTURER := teracube
+PRODUCT_MANUFACTURER := Teracube
 PRODUCT_RELEASE_NAME := Teracube One
 
 # ADB Fix
