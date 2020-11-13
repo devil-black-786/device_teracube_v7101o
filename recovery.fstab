@@ -16,7 +16,7 @@
 /persist_image    emmc      /dev/block/platform/bootdevice/by-name/persist      flags=backup=1;display="Persist Image";flashimg=1
 /system_root      ext4      /dev/block/platform/bootdevice/by-name/system       flags=backup=0;display="System"
 /system_image     emmc      /dev/block/platform/bootdevice/by-name/system       flags=backup=1;display="System Image";flashimg=1
-/vendor           ext4      /dev/block/platform/bootdevice/by-name/vendor       flags=backup=0;display="Vendor"
+/vendor           ext4      /dev/block/platform/bootdevice/by-name/vendor       flags=backup=0;display="Vendor"wipeingui
 /vendor_image     emmc      /dev/block/platform/bootdevice/by-name/vendor       flags=backup=1;display="Vendor Image";flashimg=1
 
 # MediaTek partition
