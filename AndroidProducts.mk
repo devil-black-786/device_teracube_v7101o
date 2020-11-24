@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_bismuth.mk
+    $(LOCAL_DIR)/omni_v7101o.mk

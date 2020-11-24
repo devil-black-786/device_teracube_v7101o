@@ -18,6 +18,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),bismuth)
+ifeq ($(TARGET_DEVICE),v7101o)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

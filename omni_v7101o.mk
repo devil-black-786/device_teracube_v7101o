@@ -24,8 +24,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := bismuth
-PRODUCT_NAME := omni_bismuth
+PRODUCT_DEVICE := v7101o
+PRODUCT_NAME := omni_v7101o
 PRODUCT_BRAND := Teracube
 PRODUCT_MODEL := Teracube One
 PRODUCT_MANUFACTURER := Teracube

@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/teracube/bismuth
+DEVICE_PATH := device/teracube/v7101o
 
 ALLOW_MISSING_DEPENDENCIES := true
 
@@ -58,7 +58,7 @@ BOARD_MKBOOTIMG_ARGS += --kernel_offset $(BOARD_KERNEL_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE) --board ""
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Teracube_One,bismuth
+TARGET_OTA_ASSERT_DEVICE := Teracube_One,v7101o
 
 # AVB
 BOARD_AVB_ENABLE := false
