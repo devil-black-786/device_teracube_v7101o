@@ -100,7 +100,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.aee.rc \
     init.ago.rc \
-    init.cccimdinit.rc \
     init.connectivity.rc \
     init.modem.rc \
     init.mt6771.rc \
