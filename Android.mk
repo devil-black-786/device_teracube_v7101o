@@ -22,4 +22,14 @@ $(GATEKEEPER_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(GATEKEEPER_SYMLINKS)
 
+MTKAPP_SYMLINKS := $(TARGET_OUT_VENDOR)
+$(MTKAPP_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
+	@echo "Creating MTK app blobs symlinks: $@"
+	@mkdir -p $@/app/EmCamera/lib/arm64
+	@mkdir -p $@/app/SensorHub/lib/arm64
+	@ln -sf $@/lib64/libem_camera_jni.so $@/app/EmCamera/lib/arm64/libem_camera_jni.so
+	@ln -sf $@/lib64/libem_sensor_jni.so $@/app/SensorHub/lib/arm64/libem_sensor_jni.so
+
+ALL_DEFAULT_INSTALLED_MODULES += $(MTKAPP_SYMLINKS)
+
 endif
