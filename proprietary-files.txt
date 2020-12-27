@@ -872,7 +872,6 @@ vendor/lib/hw/thermal.mt6771.so
 vendor/lib64/hw/thermal.mt6771.so
 
 # Misc
--vendor/app/EmCamera/EmCamera.apk
 -vendor/app/SensorHub/SensorHub.apk
 vendor/app/t6/02662e8e-e126-11e5-b86d9a79f06e9478.ta
 vendor/app/t6/0799a943-84a2-dead-0e3f8c88ad72507f.ta
@@ -1393,7 +1392,6 @@ vendor/lib64/libdip_postproc.so
 vendor/lib64/libdirect-coredump.so
 vendor/lib64/libdpframework.so
 vendor/lib64/libeffecthal.base.so
-vendor/lib64/libem_camera_jni.so
 vendor/lib64/libem_sensor_jni.so
 vendor/lib64/libfeature.face.so
 vendor/lib64/libfeature.stereo.provider.so
