@@ -85,7 +85,9 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
     android.hidl.manager@1.0.vendor \
     libhidltransport \
-    libhwbinder
+    libhidltransport.vendor \
+    libhwbinder \
+    libhwbinder.vendor
 
 # IDC
 PRODUCT_COPY_FILES += \
