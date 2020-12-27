@@ -534,7 +534,9 @@ vendor/lib/libstagefrighthw.so
 vendor/lib64/libstagefrighthw.so
 
 # Mediatek
-vendor/bin/hw/android.hardware.audio@5.0-service-mediatek
+system_ext/lib/vendor.mediatek.hardware.audio@6.1.so|401f8037399b188437ee62cff2c9799106e653d1
+system_ext/lib64/vendor.mediatek.hardware.audio@6.1.so|82b332d422ed4d2b7b668ae09afbd0b9faf4f579
+vendor/bin/hw/android.hardware.audio.service.mediatek|c51946788f3dbf8c0b64d5cc6ccfb74a03c531b2
 vendor/bin/hw/android.hardware.light@2.0-service-mediatek
 vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek
 vendor/bin/hw/android.hardware.usb@1.1-service-mediatek
@@ -545,7 +547,7 @@ vendor/bin/hw/vendor.mediatek.hardware.mms@1.3-service
 vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
-vendor/etc/init/android.hardware.audio@5.0-service-mediatek.rc
+vendor/etc/init/android.hardware.audio.service.mediatek.rc|988addcf61c18d6e158d7a8c6c7f6257359d6616
 vendor/etc/init/android.hardware.light@2.0-service-mediatek.rc
 vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc
 vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc
@@ -556,7 +558,7 @@ vendor/etc/init/vendor.mediatek.hardware.mms@1.3-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc
 vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc
 vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
-vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so
+vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so|20408989c444d1e02289e2cffaa06ecc1a8442c7
 vendor/lib/hw/android.hardware.light@2.0-impl-mediatek.so
 vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
@@ -618,7 +620,7 @@ vendor/lib/libmtkshifter_vendor.so
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib/libmtksysutils.so
 vendor/lib/libmtk_drvb.so
-vendor/lib/vendor.mediatek.hardware.audio@5.1.so
+vendor/lib/vendor.mediatek.hardware.audio@6.1.so|f3992a84a348b9347a0e3f4a853a7894d4a8494b
 vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so
@@ -637,7 +639,7 @@ vendor/lib/vendor.mediatek.hardware.pq@2.1.so
 vendor/lib/vendor.mediatek.hardware.pq@2.2.so
 vendor/lib/vendor.mediatek.hardware.pq@2.3.so
 vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
-vendor/lib64/hw/android.hardware.audio@5.0-impl-mediatek.so
+vendor/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so|caab9ebab046f7c30982278b2a3f5243dc726404
 vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so
 vendor/lib64/hw/android.hardware.light@2.0-impl-mediatek.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
@@ -728,7 +730,7 @@ vendor/lib64/libmtkutils.so
 vendor/lib64/libmtk_drvb.so
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/vendor.mediatek.hardware.atci@1.0.so
-vendor/lib64/vendor.mediatek.hardware.audio@5.1.so
+vendor/lib64/vendor.mediatek.hardware.audio@6.1.so|1bac4f2cfb78cd362063e86994804886075ad01c
 vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so
