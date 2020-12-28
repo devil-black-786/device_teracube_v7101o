@@ -1193,8 +1193,6 @@ vendor/etc/virtual-spn-conf-by-efgid1.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
 vendor/etc/virtual-spn-conf-by-efspn.xml
 vendor/etc/virtual-spn-conf-by-imsi.xml
-vendor/lib/android.hardware.audio.common-util.so
-vendor/lib/android.hardware.audio.common@5.0-util.so
 vendor/lib/hw/awinic.audio.effect.so
 vendor/lib/hw/flp.default.so
 vendor/lib/hw/gps.default.so
@@ -1335,9 +1333,6 @@ vendor/lib/s5k4h8_mipi_raw_IdxMgr.so
 vendor/lib/s5k4h8_mipi_raw_tuning.so
 vendor/lib/s5k5e9_mipi_raw_IdxMgr.so
 vendor/lib/s5k5e9_mipi_raw_tuning.so
-vendor/lib64/android.hardware.audio.common-util.so
-vendor/lib64/android.hardware.audio.common@5.0-util.so
-vendor/lib64/hw/android.hardware.soundtrigger@2.2-impl.so
 vendor/lib64/hw/awinic.audio.effect.so
 vendor/lib64/hw/flp.default.so
 vendor/lib64/hw/gps.default.so
