@@ -483,8 +483,12 @@ vendor/lib/libgeofence.so
 vendor/lib64/hw/android.hardware.gnss@2.0-impl-mediatek.so
 
 # Gatekeeper
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service
+vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib/hw/gatekeeper.trustkernel.so
 vendor/lib/hw/libSoftGatekeeper.so
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.trustkernel.so
 vendor/lib64/hw/libSoftGatekeeper.so
 
