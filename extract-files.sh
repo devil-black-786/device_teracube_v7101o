@@ -33,11 +33,6 @@ if [ ! -f "${HELPER}" ]; then
 fi
 source "${HELPER}"
 
-function blob_fixup() {
-    case "${1}" in
-    esac
-}
-
 # Default to sanitizing the vendor folder before extraction
 CLEAN_VENDOR=true
 
@@ -69,6 +64,10 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+
+    vendor/lib/hw/audio.primary.mt6771.so)
+        patchelf --replace-needed "libmedia_helper.so" "libmedia_helper-v29.so" "${2}"
+        ;;
 
     vendor/lib64/libladder.so)
         patchelf --replace-needed "libunwindstack.so" "libunwindstack-v29.so" "${2}"
