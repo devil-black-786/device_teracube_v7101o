@@ -69,6 +69,10 @@ function blob_fixup() {
         patchelf --replace-needed "libmedia_helper.so" "libmedia_helper-v29.so" "${2}"
         ;;
 
+    vendor/lib/libaedv.so)
+        patchelf --replace-needed "libunwindstack.so" "libunwindstack-v29.so" "${2}"
+        ;;
+
     vendor/lib64/libladder.so)
         patchelf --replace-needed "libunwindstack.so" "libunwindstack-v29.so" "${2}"
         ;;
