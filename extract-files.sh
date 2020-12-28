@@ -67,6 +67,16 @@ if [ -z "${SRC}" ]; then
     SRC="adb"
 fi
 
+function blob_fixup() {
+    case "${1}" in
+
+    vendor/lib64/libladder.so)
+        patchelf --replace-needed "libunwindstack.so" "libunwindstack-v29.so" "${2}"
+        ;;
+
+    esac
+}
+
 # Initialize the helper for common device
 setup_vendor "${DEVICE}" "${VENDOR}" "${AOSP_ROOT}" false "${CLEAN_VENDOR}"
 
