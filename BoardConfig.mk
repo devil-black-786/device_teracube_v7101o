@@ -124,6 +124,9 @@ VENDOR_SECURITY_PATCH := 2020-03-05
 # Sepolicy
 include device/mediatek/sepolicy/sepolicy.mk
 
+SELINUX_IGNORE_NEVERALLOWS := true
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
