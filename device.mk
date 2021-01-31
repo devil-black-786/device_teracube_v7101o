@@ -7,7 +7,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/teracube/bismuth/bismuth-vendor.mk)
+$(call inherit-product-if-exists, vendor/oppo/CPH1859/CPH1859-vendor.mk)
 
 # Properties
 include $(LOCAL_PATH)/properties.mk
@@ -23,7 +23,7 @@ PRODUCT_PACKAGES += \
     libaacwrapper
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2280
+TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
 # Camera
@@ -49,16 +49,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs_mediatek_video.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_codecs_mediatek_video.xml
 
-# NFC
-PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.0:64 \
-    android.hardware.nfc@1.1:64 \
-    android.hardware.nfc@1.2:64 \
-    android.hardware.secure_element@1.0:64 \
-    android.hardware.secure_element@1.1:64 \
-    com.android.nfc_extras \
-    Tag
-
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.secure_lock_screen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.secure_lock_screen.xml
@@ -67,6 +57,11 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
+    
+# Misc
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/misc/factory.ini:$(TARGET_COPY_OUT_SYSTEM)/etc/factory.ini \
+    $(LOCAL_PATH)/configs/misc/custom.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/custom.conf
 
 # Overlays -- replace official
 PRODUCT_PACKAGES += \

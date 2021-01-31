@@ -1,4 +1,4 @@
-package org.lineageos.teracube.imsinit;
+package org.lineageos.oppo.imsinit;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

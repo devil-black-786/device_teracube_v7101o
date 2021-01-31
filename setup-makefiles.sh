@@ -17,8 +17,8 @@
 
 set -e
 
-DEVICE=bismuth
-VENDOR=teracube
+DEVICE=CPH1859
+VENDOR=oppo
 INITIAL_COPYRIGHT_YEAR=2020
 
 # Load extract_utils and do some sanity checks

@@ -47,23 +47,3 @@ lib64/libvcodec_cap.so|282619d10a3edd1a5e639c91ccbba71bade25f11
 lib64/libvcodec_capenc.so|5d71f04fe228325dfc4595d1f21b22f0308ce9e5
 lib64/vendor.mediatek.hardware.videotelephony@1.0.so|c18441addb7120740a30319f86b1bfee33549288
 
-# Nfc
--app/Nfc_st/Nfc_st.apk
-bin/nfcstackp
-etc/nfcee_access.xml|0b2e6cde839a1c5ecc20fd34df8a82275382242e
-etc/permissions/com.st.android.nfc_extensions.xml
-etc/permissions/com.st.android.nfc_dta_extensions.xml
--framework/com.st.android.nfc_dta_extensions.jar
--framework/com.st.android.nfc_extensions.jar
-lib/libdtaNfaProvider.so
-lib/libnfc_st_dta_jni.so
-lib/libnfc_st_dta.so
-lib/libstnfc-nci.so
-lib/libstnfc_nci_jni.so
-lib/libicuuc.so:lib/libicuXD.so
-lib64/libdtaNfaProvider.so
-lib64/libnfc_st_dta_jni.so
-lib64/libnfc_st_dta.so
-lib64/libstnfc-nci.so
-lib64/libstnfc_nci_jni.so
-lib64/libicuuc.so:lib64/libicuXD.so
