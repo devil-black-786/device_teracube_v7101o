@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/oppo/CPH159
+DEVICE_PATH := device/oppo/CPH1859
 BOARD_VENDOR := oppo
 
 # APEX
